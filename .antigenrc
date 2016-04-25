@@ -1,0 +1,23 @@
+antigen use oh-my-zsh
+
+if [ "$OSTYPE"="darwin15.0" ]; then
+  antigen bundle osx
+fi
+
+# Plugins.
+antigen bundle git
+antigen bundle z
+antigen bundle node
+antigen bundle thefuck
+antigen bundle npm 
+antigen bundle git-extras 
+antigen bundle sublime 
+antigen bundle brew
+antigen bundle djui/alias-tips
+
+# Theme.
+antigen theme robbyrussell
+
+# Done.
+antigen apply
+
