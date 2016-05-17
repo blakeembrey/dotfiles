@@ -1,6 +1,10 @@
 alias ni='npm install'
 alias nt='npm test'
 alias nr='npm run'
+alias ne='npm-exec'
+alias nit='npm it'
 alias gu='gitup commit'
 alias gdb='git delete-branch'
 alias gbd='git branch -d'
+
+alias npm-exec='PATH=$(npm bin):$PATH'
