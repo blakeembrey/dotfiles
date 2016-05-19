@@ -2,12 +2,11 @@
 
 brew bundle
 
-chsh -s /bin/zsh
+if [ echo $ZSH_NAME != "zsh" ]; then 
+  chsh -s /bin/zsh
+fi
 
 sh ./setup.sh
-
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim +PluginInstall +qall
 
 git config --global core.editor $(which vim)
 git config --global user.name "Blake Embrey"
@@ -15,4 +14,14 @@ git config --global user.email "hello@blakeembrey.com"
 
 mkdir -p ~/Projects
 
-sh ./scripts/node.sh
+if [ -d ~/.vim/bundle/Vundle.vim ]; then
+  echo "Vundle is already installed..."
+else
+  sh ./scripts/vim.sh
+fi
+
+if which node > /dev/null; then 
+  echo "Node already exists..."
+else
+  sh ./scripts/node.sh
+fi
