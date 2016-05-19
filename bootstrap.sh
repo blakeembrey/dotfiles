@@ -1,6 +1,6 @@
-ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-source ./brew.sh
+brew bundle
 
 chsh -s /bin/zsh
 
@@ -10,3 +10,5 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
 git config --global core.editor $(which vim)
+git config --global user.name "Blake Embrey"
+git config --global user.email "hello@blakeembrey.com"
