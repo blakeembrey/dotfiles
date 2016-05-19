@@ -4,7 +4,7 @@ brew bundle
 
 chsh -s /bin/zsh
 
-source ./setup.sh
+sh ./setup.sh
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
@@ -12,3 +12,7 @@ vim +PluginInstall +qall
 git config --global core.editor $(which vim)
 git config --global user.name "Blake Embrey"
 git config --global user.email "hello@blakeembrey.com"
+
+mkdir -p ~/Projects
+
+sh ./scripts/node.sh
