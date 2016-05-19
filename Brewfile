@@ -1,6 +1,7 @@
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
+tap 'homebrew/services'
 brew 'antigen'
 brew 'autoconf'
 brew 'autoenv'
@@ -37,17 +38,22 @@ cask 'alfred'
 cask 'atom'
 cask 'backblaze'
 cask 'bittorrent-sync'
+cask 'cloak'
 cask 'dashlane'
 cask 'dropbox'
+cask 'duet'
 cask 'evernote'
 cask 'firefox'
 cask 'flux'
 cask 'gitup'
+cask 'helium'
 cask 'java'
 cask 'launchrocket'
 cask 'licecap'
+cask 'rescuetime'
 cask 'sketch'
 cask 'skype'
+cask 'spectacle'
 cask 'spotify'
 cask 'steam'
 cask 'sublime-text'
@@ -70,6 +76,7 @@ mas 'Irvue', id: 1039633667
 mas 'Pixelmator', id: 407963104
 mas 'GarageBand', id: 682658836
 mas 'Reeder', id: 880001334
+mas 'BreakTime', id: 427475982
 mas 'Numbers', id: 409203825
 mas 'Momentum', id: 1030442215
 mas 'Gestimer', id: 990588172
