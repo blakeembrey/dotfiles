@@ -9,6 +9,7 @@ fi
 sh ./setup.sh
 
 git config --global core.editor $(which vim)
+git config --global push.followTags true
 git config --global user.name "Blake Embrey"
 git config --global user.email "hello@blakeembrey.com"
 
