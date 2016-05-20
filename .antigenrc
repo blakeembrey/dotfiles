@@ -9,14 +9,14 @@ antigen bundle git
 antigen bundle z
 antigen bundle node
 antigen bundle thefuck
-antigen bundle npm 
-antigen bundle git-extras 
-antigen bundle sublime 
+antigen bundle npm
+antigen bundle git-extras
+antigen bundle sublime
 antigen bundle brew
 antigen bundle djui/alias-tips
 
 # Theme.
-antigen theme robbyrussell
+antigen theme oskarkrawczyk/honukai-iterm-zsh honukai
 
 # Done.
 antigen apply
