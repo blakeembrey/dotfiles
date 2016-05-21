@@ -6,5 +6,6 @@ alias nit='npm it'
 alias gu='gitup commit'
 alias gdb='git delete-branch'
 alias gbd='git branch -d'
+alias gpo='git push -u origin $(git rev-parse --abbrev-ref HEAD)'
 
 alias npm-exec='PATH=$(npm bin):$PATH'
