@@ -57,7 +57,6 @@ cask 'licecap'
 cask 'rescuetime'
 cask 'sketch'
 cask 'skype'
-cask 'spectacle'
 cask 'spotify'
 cask 'steam'
 cask 'sublime-text'
@@ -66,22 +65,23 @@ cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'webtorrent'
-mas 'The Unarchiver', id: 425424353
-mas 'Keynote', id: 409183694
-mas 'iMovie', id: 408981434
-mas 'Caffeine', id: 411246225
-mas 'Soulver', id: 413965349
 mas 'Kaleidoscope', id: 587512244
-mas 'Noizio', id: 928871589
+mas 'BetterSnapTool', id: 417375580
+mas 'Keynote', id: 409183694
 mas 'iA Writer', id: 775737590
-mas 'Slack', id: 803453959
-mas 'BreakTime', id: 427475982
 mas 'Aware', id: 1082170746
-mas 'Reeder', id: 880001334
-mas 'Irvue', id: 1039633667
-mas 'Pages', id: 409201541
+mas 'The Unarchiver', id: 425424353
+mas 'Caffeine', id: 411246225
 mas 'Pixelmator', id: 407963104
 mas 'GarageBand', id: 682658836
-mas 'Numbers', id: 409203825
+mas 'DaisyDisk', id: 411643860
 mas 'Momentum', id: 1030442215
+mas 'Reeder', id: 880001334
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Soulver', id: 413965349
+mas 'iMovie', id: 408981434
+mas 'Irvue', id: 1039633667
+mas 'Noizio', id: 928871589
 mas 'Gestimer', id: 990588172
+mas 'Slack', id: 803453959
