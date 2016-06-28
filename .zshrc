@@ -26,3 +26,5 @@ eval "$(rbenv init -)"
 
 # Enable https://github.com/nvbn/thefuck
 eval "$(thefuck --alias)"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
