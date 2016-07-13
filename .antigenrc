@@ -7,9 +7,7 @@ fi
 # Plugins.
 antigen bundle git
 antigen bundle z
-antigen bundle node
 antigen bundle thefuck
-antigen bundle npm
 antigen bundle git-extras
 antigen bundle sublime
 antigen bundle brew

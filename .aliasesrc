@@ -1,15 +1,38 @@
+#######
+# NPM #
+#######
+
+eval "$(npm completion 2>/dev/null)"
+
+alias npmg="npm install -g "
+alias npmS="npm install -S "
+alias npmD="npm install -D "
+alias npmE='PATH="$(npm bin)":"$PATH"'
+alias npmO="npm outdated"
+alias npmL="npm link"
+alias npmU="npm uninstall"
+
 alias ni='npm install'
 alias nt='npm test'
 alias nr='npm run'
 alias ne='npmE'
-alias nl='npm list'
 alias nit='npm it'
-alias nln='npm link'
-alias nun='npm unlink'
-alias nrm='npm rm'
+
+########
+# Node #
+########
+
+function node-docs {
+  command=$([ "$1" = "" ] && echo "all" || echo "$1")
+
+  open_command "http://nodejs.org/docs/$(node --version)/api/$command.html"
+}
+
+#######
+# Git #
+#######
+
 alias gu='gitup commit'
 alias gdb='git delete-branch'
 alias gbd='git branch -d'
 alias gpo='git push origin $(git rev-parse --abbrev-ref HEAD)'
-
-alias npmE='PATH=$(npm bin):$PATH'
