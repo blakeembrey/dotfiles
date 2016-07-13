@@ -14,6 +14,12 @@ sh ./bootstrap.sh
 sh ./setup.sh
 ```
 
+### Update Brew Bundle
+
+```sh
+brew bundle dump -f
+```
+
 ## License
 
 MIT
