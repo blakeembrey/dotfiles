@@ -27,6 +27,7 @@ brew 'wxmac'
 brew 'erlang'
 brew 'couchdb'
 brew 'elasticsearch'
+brew 'exiftool'
 brew 'pcre'
 brew 'git'
 brew 'git-extras'
@@ -37,6 +38,7 @@ brew 'heroku'
 brew 'logstash'
 brew 'mackup'
 brew 'mas'
+brew 'neo4j'
 brew 'perl'
 brew 'python3'
 brew 'postgresql'
@@ -48,6 +50,7 @@ brew 'stout'
 brew 'thefuck'
 brew 'tree'
 brew 'vim'
+brew 'virtuoso'
 brew 'z'
 brew 'zsh'
 brew 'zsh-completions'
@@ -56,6 +59,7 @@ cask 'alfred'
 cask 'atom'
 cask 'backblaze'
 cask 'bittorrent-sync'
+cask 'cloak'
 cask 'dashlane'
 cask 'dropbox'
 cask 'duet'
@@ -65,6 +69,7 @@ cask 'flux'
 cask 'gitup'
 cask 'google-chrome'
 cask 'helium'
+cask 'hyperterm'
 cask 'iterm2'
 cask 'launchrocket'
 cask 'licecap'
@@ -75,7 +80,6 @@ cask 'spotify'
 cask 'steam'
 cask 'sublime-text'
 cask 'tripmode'
-cask 'tunnelbear'
 cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
@@ -84,13 +88,13 @@ mas 'Kaleidoscope', id: 587512244
 mas 'BetterSnapTool', id: 417375580
 mas 'Keynote', id: 409183694
 mas 'iA Writer', id: 775737590
+mas 'CloudApp', id: 417602904
 mas 'Aware', id: 1082170746
 mas 'The Unarchiver', id: 425424353
 mas 'Caffeine', id: 411246225
 mas 'Pixelmator', id: 407963104
 mas 'GarageBand', id: 682658836
 mas 'DaisyDisk', id: 411643860
-mas 'Momentum', id: 1030442215
 mas 'Reeder', id: 880001334
 mas 'Numbers', id: 409203825
 mas 'Transmit', id: 403388562
