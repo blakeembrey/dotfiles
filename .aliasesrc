@@ -36,3 +36,10 @@ alias gu='gitup commit'
 alias gdb='git delete-branch'
 alias gbd='git branch -d'
 alias gpo='git push origin $(git rev-parse --abbrev-ref HEAD)'
+
+#############
+# Utilities #
+#############
+
+alias ia="open $1 -a /Applications/iA\ Writer.app"
+
