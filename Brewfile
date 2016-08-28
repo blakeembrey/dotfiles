@@ -1,4 +1,5 @@
 tap 'caskroom/cask'
+tap 'caskroom/fonts'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'homebrew/services'
@@ -66,14 +67,19 @@ cask 'duet'
 cask 'evernote'
 cask 'firefox'
 cask 'flux'
+cask 'focus'
+cask 'font-fira-code'
+cask 'font-source-code-pro'
 cask 'gitup'
 cask 'google-chrome'
 cask 'helium'
 cask 'hyperterm'
 cask 'iterm2'
+cask 'keybase'
 cask 'launchrocket'
 cask 'licecap'
 cask 'rescuetime'
+cask 'screenhero'
 cask 'sketch'
 cask 'skype'
 cask 'spotify'
@@ -105,4 +111,5 @@ mas 'Irvue', id: 1039633667
 mas 'Noizio', id: 928871589
 mas 'Gestimer', id: 990588172
 mas 'Slack', id: 803453959
+mas 'Dash', id: 449589707
 mas 'Sip', id: 507257563
