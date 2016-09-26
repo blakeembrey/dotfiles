@@ -56,6 +56,7 @@ brew 'gnupg'
 brew 'lua'
 brew 'gnuplot', args: ['with-aquaterm']
 brew 'graphicsmagick'
+brew 'graphviz'
 brew 'libyaml'
 brew 'ruby'
 brew 'heroku'
@@ -69,6 +70,7 @@ brew 'plotutils'
 brew 'python3'
 brew 'postgresql', service_restart: true
 brew 'pstoedit'
+brew 'raptor'
 brew 'ruby-build'
 brew 'rbenv'
 brew 'redis', service_restart: true
@@ -78,6 +80,7 @@ brew 'szip'
 brew 'tbb'
 brew 'texinfo'
 brew 'thefuck'
+brew 'titan-server'
 brew 'tree'
 brew 'vim'
 brew 'virtuoso'
@@ -101,7 +104,9 @@ cask 'backblaze'
 cask 'bittorrent-sync'
 cask 'cloak'
 cask 'dashlane'
+cask 'docker'
 cask 'duet'
+cask 'dwarf-fortress'
 cask 'evernote'
 cask 'firefox'
 cask 'flux'
@@ -111,14 +116,14 @@ cask 'font-source-code-pro'
 cask 'gitup'
 cask 'google-chrome'
 cask 'google-drive'
-cask 'helium'
-cask 'hyperterm'
 cask 'iterm2'
 cask 'keybase'
 cask 'launchrocket'
 cask 'licecap'
 cask 'rescuetime'
 cask 'screenhero'
+cask 'sdl-framework'
+cask 'sdl-ttf-framework'
 cask 'sketch'
 cask 'skype'
 cask 'spotify'
@@ -132,14 +137,13 @@ cask 'webtorrent'
 mas 'Kaleidoscope', id: 587512244
 mas 'BetterSnapTool', id: 417375580
 mas 'Keynote', id: 409183694
-mas 'iA Writer', id: 775737590
 mas 'CloudApp', id: 417602904
-mas 'Aware', id: 1082170746
-mas 'The Unarchiver', id: 425424353
+mas 'iA Writer', id: 775737590
 mas 'Caffeine', id: 411246225
-mas 'Pixelmator', id: 407963104
 mas 'GarageBand', id: 682658836
+mas 'Pixelmator', id: 407963104
 mas 'DaisyDisk', id: 411643860
+mas 'The Unarchiver', id: 425424353
 mas 'Reeder', id: 880001334
 mas 'Numbers', id: 409203825
 mas 'Transmit', id: 403388562
