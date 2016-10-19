@@ -8,28 +8,30 @@ tap 'homebrew/x11'
 cask 'java'
 cask 'xquartz'
 brew 'antigen'
+brew 'gdbm'
+brew 'openssl'
 brew 'pkg-config'
-brew 'xz'
 brew 'readline'
 brew 'icu4c'
 brew 'sqlite'
-brew 'gdbm'
-brew 'openssl'
 brew 'python'
 brew 'libxml2'
 brew 'augeas'
 brew 'autoconf'
 brew 'autoenv'
+brew 'automake'
 brew 'dialog'
 brew 'certbot'
-brew 'nspr'
-brew 'spidermonkey'
+brew 'cmake'
 brew 'libtool'
 brew 'jpeg'
 brew 'libpng'
+brew 'xz'
 brew 'libtiff'
 brew 'wxmac'
 brew 'erlang'
+brew 'nspr'
+brew 'spidermonkey'
 brew 'couchdb'
 brew 'elasticsearch', service_restart: true
 brew 'little-cms2'
@@ -37,9 +39,9 @@ brew 'ghostscript'
 brew 'epstool'
 brew 'exiftool'
 brew 'gmp'
+brew 'isl'
 brew 'mpfr'
 brew 'libmpc'
-brew 'isl'
 brew 'gcc'
 brew 'fftw'
 brew 'fltk'
@@ -62,10 +64,15 @@ brew 'ruby'
 brew 'heroku'
 brew 'perl'
 brew 'imagemagick'
+brew 'zookeeper'
+brew 'kafka'
 brew 'logstash'
 brew 'mackup'
 brew 'mas'
 brew 'neo4j'
+brew 'ocaml'
+brew 'packer'
+brew 'phantomjs'
 brew 'plotutils'
 brew 'python3'
 brew 'postgresql', service_restart: true
@@ -78,6 +85,7 @@ brew 'rethinkdb', service_restart: true
 brew 'stout'
 brew 'szip'
 brew 'tbb'
+brew 'terraform'
 brew 'texinfo'
 brew 'thefuck'
 brew 'titan-server'
@@ -92,16 +100,17 @@ brew 'homebrew/science/arpack'
 brew 'homebrew/science/glpk'
 brew 'homebrew/science/hdf5'
 brew 'homebrew/science/metis'
-brew 'homebrew/science/transfig'
 brew 'homebrew/science/qhull'
 brew 'homebrew/science/qrupdate'
 brew 'homebrew/science/suite-sparse'
+brew 'homebrew/science/transfig'
 brew 'homebrew/science/octave'
 cask 'aerial'
 cask 'alfred'
 cask 'atom'
 cask 'backblaze'
 cask 'bittorrent-sync'
+cask 'brave'
 cask 'cloak'
 cask 'dashlane'
 cask 'docker'
@@ -118,6 +127,7 @@ cask 'google-chrome'
 cask 'google-drive'
 cask 'iterm2'
 cask 'keybase'
+cask 'kitematic'
 cask 'launchrocket'
 cask 'licecap'
 cask 'rescuetime'
@@ -126,6 +136,7 @@ cask 'sdl-framework'
 cask 'sdl-ttf-framework'
 cask 'sketch'
 cask 'skype'
+cask 'spectacle'
 cask 'spotify'
 cask 'steam'
 cask 'sublime-text'
@@ -134,25 +145,26 @@ cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'webtorrent'
-mas 'Kaleidoscope', id: 587512244
-mas 'BetterSnapTool', id: 417375580
-mas 'Keynote', id: 409183694
-mas 'CloudApp', id: 417602904
-mas 'iA Writer', id: 775737590
-mas 'Caffeine', id: 411246225
-mas 'GarageBand', id: 682658836
-mas 'Pixelmator', id: 407963104
-mas 'DaisyDisk', id: 411643860
-mas 'The Unarchiver', id: 425424353
-mas 'Reeder', id: 880001334
-mas 'Numbers', id: 409203825
-mas 'Transmit', id: 403388562
-mas 'Pages', id: 409201541
-mas 'Soulver', id: 413965349
-mas 'iMovie', id: 408981434
-mas 'Irvue', id: 1039633667
-mas 'Noizio', id: 928871589
-mas 'Gestimer', id: 990588172
-mas 'Slack', id: 803453959
-mas 'Dash', id: 449589707
-mas 'Sip', id: 507257563
+mas 'Kaleidoscope (2.1.0)', id: 587512244
+mas 'Keynote (7.0)', id: 409183694
+mas 'CloudApp (4.1.1)', id: 417602904
+mas 'iA Writer (3.2.6)', id: 775737590
+mas 'GarageBand (10.1.2)', id: 682658836
+mas 'Caffeine (1.1.1)', id: 411246225
+mas 'The Unarchiver (3.11.1)', id: 425424353
+mas 'Pixelmator (3.5.1)', id: 407963104
+mas 'DaisyDisk (4.2)', id: 411643860
+mas 'Reeder (3.0.1)', id: 880001334
+mas 'Numbers (4.0)', id: 409203825
+mas 'Transmit (4.4.11)', id: 403388562
+mas 'Pages (6.0)', id: 409201541
+mas 'Xcode (8.0)', id: 497799835
+mas 'Soulver (2.6.0)', id: 413965349
+mas 'iMovie (10.1.2)', id: 408981434
+mas 'Irvue (1.5.2)', id: 1039633667
+mas 'Noizio (1.5)', id: 928871589
+mas 'Gestimer (1.1.3)', id: 990588172
+mas 'Slack (2.0.3)', id: 803453959
+mas 'Fantastical 2 (2.2.5)', id: 975937182
+mas 'Dash (3.3.1)', id: 449589707
+mas 'Sip (4.4.1)', id: 507257563
