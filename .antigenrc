@@ -5,11 +5,9 @@ if [ "$OSTYPE"="darwin15.0" ]; then
 fi
 
 # Plugins.
-antigen bundle git
 antigen bundle z
 antigen bundle thefuck
 antigen bundle git-extras
-antigen bundle sublime
 antigen bundle brew
 antigen bundle djui/alias-tips
 

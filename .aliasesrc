@@ -32,14 +32,101 @@ function node-docs {
 # Git #
 #######
 
+alias g=git
+
+alias ga='git add'
+alias gaa='git add --all'
+alias gapa='git add --patch'
+
+alias gb='git branch'
+alias gba='git branch -a'
+alias gbd='git branch -d'
+
+alias gbs='git bisect'
+alias gbsb='git bisect bad'
+alias gbsg='git bisect good'
+alias gbsr='git bisect reset'
+alias gbss='git bisect start'
+
+alias gbl='git blame -b -w'
+
+alias gc='git commit -v'
+alias 'gc!'='git commit -v --amend'
+alias gca='git commit -v -a'
+alias 'gca!'='git commit -v -a --amend'
+alias gcam='git commit -a -m'
+alias 'gcan!'='git commit -v -a --no-edit --amend'
+alias 'gcans!'='git commit -v -a -s --no-edit --amend'
+alias 'gcn!'='git commit -v --no-edit --amend'
+
+alias gcl='git clone --recursive'
+alias gclean='git clean -fd'
+
+alias gco='git checkout'
+alias gcb='git checkout -b'
+alias gcm='git checkout master'
+
 alias gu='gitup commit'
 alias gdb='git delete-branch'
-alias gbd='git branch -d'
+alias grt='cd $(git rev-parse --show-toplevel || echo ".")'
+
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gdt='git diff-tree --no-commit-id --name-only -r'
+alias gdw='git diff --word-diff'
+
+alias gl='git pull'
+alias glo='git pull origin $(git rev-parse --abbrev-ref HEAD)'
+alias glu='git pull upstream $(git rev-parse --abrev-ref HEAD)'
+alias glum='git pull upstream master'
+alias glr='git pull --rebase'
+
+alias gr='git remote'
+alias gra='git remote add'
+alias grv='git remote -v'
+alias grmv='git remote rename'
+alias grrm='git remote remove'
+alias grs='git remote set-url'
+alias gru='git remote update'
+
+alias grb='git rebase'
+alias grba='git rebase --abort'
+alias grbc='git rebase --continue'
+alias grbi='git rebase -i'
+alias grbm='git rebase master'
+alias grbs='git rebase --skip'
+
+alias grh='git reset HEAD'
+alias grhh='git reset HEAD --hard'
+alias gru='git reset --'
+
+alias gp='git push'
+alias gpd='git push --dry-run'
 alias gpo='git push origin $(git rev-parse --abbrev-ref HEAD)'
+alias gpf='git push --force-with-lease'
+alias gpu='git push upstream'
+
+alias gst='git status'
+alias gss='git status --short --branch'
+
+alias gm='git merge'
+alias gmm='git merge --ff'
+alias gmom='git merge origin/master'
+alias gmum='git merge upstream/master'
+
+alias gunignore='git update-index --no-assume-unchanged'
+alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit -m "--wip--"'
+alias gunwip='git log -n 1 | grep -q -c "\-\-wip\-\-" && git reset HEAD~1'
+
+alias glo='git log --oneline --decorate'
+alias glog='git log --oneline --decorate --graph'
+alias gloga='git log --oneline --decorate --graph --all'
+alias glol='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit'
+alias glola='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit --all'
 
 #############
 # Utilities #
 #############
 
 alias ia="open $1 -a /Applications/iA\ Writer.app"
-
+alias mkd="mkdir -p $1 && cd $1"
