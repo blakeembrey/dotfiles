@@ -10,9 +10,9 @@ antigen bundle thefuck
 antigen bundle git-extras
 antigen bundle brew
 antigen bundle djui/alias-tips
-
-# Theme.
-antigen theme oskarkrawczyk/honukai-iterm-zsh honukai
+antigen bundle mafredri/zsh-async
+antigen bundle sindresorhus/pure
+antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Done.
 antigen apply

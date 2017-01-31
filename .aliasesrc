@@ -66,6 +66,8 @@ alias gco='git checkout'
 alias gcb='git checkout -b'
 alias gcm='git checkout master'
 
+alias gcp='git cherry-pick'
+
 alias gu='gitup commit'
 alias gdb='git delete-branch'
 alias grt='cd $(git rev-parse --show-toplevel || echo ".")'

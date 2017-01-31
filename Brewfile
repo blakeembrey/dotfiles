@@ -10,30 +10,38 @@ cask 'xquartz'
 brew 'antigen'
 brew 'gdbm'
 brew 'openssl'
-brew 'pkg-config'
 brew 'readline'
-brew 'icu4c'
 brew 'sqlite'
 brew 'python'
 brew 'libxml2'
 brew 'augeas'
 brew 'autoconf'
-brew 'autoenv'
 brew 'automake'
+brew 'libpng'
+brew 'freetype'
+brew 'fontconfig'
+brew 'gettext'
+brew 'libffi'
+brew 'pcre'
+brew 'glib'
+brew 'pixman'
+brew 'cairo'
+brew 'ocaml'
+brew 'camlp5'
 brew 'dialog'
 brew 'certbot'
 brew 'cmake'
-brew 'libtool'
 brew 'jpeg'
-brew 'libpng'
-brew 'xz'
 brew 'libtiff'
 brew 'wxmac'
 brew 'erlang'
+brew 'icu4c'
 brew 'nspr'
 brew 'spidermonkey'
 brew 'couchdb'
-brew 'elasticsearch', service_restart: true
+brew 'curl'
+brew 'direnv'
+brew 'elasticsearch', restart_service: true
 brew 'little-cms2'
 brew 'ghostscript'
 brew 'epstool'
@@ -45,43 +53,53 @@ brew 'libmpc'
 brew 'gcc'
 brew 'fftw'
 brew 'fltk'
-brew 'freetype'
-brew 'fontconfig'
 brew 'webp'
 brew 'gd'
-brew 'pcre'
 brew 'git'
 brew 'git-extras'
 brew 'gl2ps'
 brew 'gnu-sed'
 brew 'gnupg'
 brew 'lua'
-brew 'gnuplot', args: ['with-aquaterm']
+brew 'gnuplot'
+brew 'pkg-config'
+brew 'gobject-introspection'
+brew 'libtool'
 brew 'graphicsmagick'
 brew 'graphviz'
-brew 'libyaml'
-brew 'ruby'
+brew 'harfbuzz'
 brew 'heroku'
+brew 'hub'
 brew 'perl'
+brew 'xz'
 brew 'imagemagick'
 brew 'zookeeper'
 brew 'kafka'
+brew 'ledit'
+brew 'libevent'
+brew 'libsvm'
+brew 'libyaml'
 brew 'logstash'
 brew 'mackup'
 brew 'mas'
 brew 'neo4j'
-brew 'ocaml'
 brew 'packer'
+brew 'pango'
 brew 'phantomjs'
 brew 'plotutils'
 brew 'python3'
-brew 'postgresql', service_restart: true
+brew 'postgresql', restart_service: true
 brew 'pstoedit'
+brew 'sip', args: ['with-python3']
+brew 'pyqt5'
+brew 'qscintilla2'
+brew 'qt5'
 brew 'raptor'
 brew 'ruby-build'
 brew 'rbenv'
-brew 'redis', service_restart: true
-brew 'rethinkdb', service_restart: true
+brew 'redis', restart_service: true
+brew 'rethinkdb', restart_service: true
+brew 'ruby'
 brew 'stout'
 brew 'szip'
 brew 'tbb'
@@ -89,9 +107,11 @@ brew 'terraform'
 brew 'texinfo'
 brew 'thefuck'
 brew 'titan-server'
+brew 'tmux'
 brew 'tree'
 brew 'vim'
 brew 'virtuoso'
+brew 'wget'
 brew 'z'
 brew 'zsh'
 brew 'zsh-completions'
@@ -107,7 +127,8 @@ brew 'homebrew/science/transfig'
 brew 'homebrew/science/octave'
 cask 'aerial'
 cask 'alfred'
-cask 'atom'
+cask 'aquaterm'
+cask 'arduino'
 cask 'backblaze'
 cask 'bittorrent-sync'
 cask 'brave'
@@ -122,10 +143,13 @@ cask 'flux'
 cask 'focus'
 cask 'font-fira-code'
 cask 'font-source-code-pro'
+cask 'gephi'
 cask 'gitup'
 cask 'google-chrome'
 cask 'google-drive'
+cask 'helium'
 cask 'iterm2'
+cask 'kap'
 cask 'keybase'
 cask 'kitematic'
 cask 'launchrocket'
@@ -140,31 +164,30 @@ cask 'spectacle'
 cask 'spotify'
 cask 'steam'
 cask 'sublime-text'
+cask 'textual'
 cask 'tripmode'
 cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'webtorrent'
-mas 'Kaleidoscope (2.1.0)', id: 587512244
-mas 'Keynote (7.0)', id: 409183694
-mas 'CloudApp (4.1.1)', id: 417602904
-mas 'iA Writer (3.2.6)', id: 775737590
-mas 'GarageBand (10.1.2)', id: 682658836
-mas 'Caffeine (1.1.1)', id: 411246225
-mas 'The Unarchiver (3.11.1)', id: 425424353
-mas 'Pixelmator (3.5.1)', id: 407963104
-mas 'DaisyDisk (4.2)', id: 411643860
-mas 'Reeder (3.0.1)', id: 880001334
-mas 'Numbers (4.0)', id: 409203825
-mas 'Transmit (4.4.11)', id: 403388562
-mas 'Pages (6.0)', id: 409201541
-mas 'Xcode (8.0)', id: 497799835
-mas 'Soulver (2.6.0)', id: 413965349
-mas 'iMovie (10.1.2)', id: 408981434
-mas 'Irvue (1.5.2)', id: 1039633667
-mas 'Noizio (1.5)', id: 928871589
-mas 'Gestimer (1.1.3)', id: 990588172
-mas 'Slack (2.0.3)', id: 803453959
-mas 'Fantastical 2 (2.2.5)', id: 975937182
-mas 'Dash (3.3.1)', id: 449589707
-mas 'Sip (4.4.1)', id: 507257563
+mas 'Kaleidoscope', id: 587512244
+mas 'Keynote', id: 409183694
+mas 'CloudApp', id: 417602904
+mas 'iA Writer', id: 775737590
+mas 'GarageBand', id: 682658836
+mas 'The Unarchiver', id: 425424353
+mas 'Caffeine', id: 411246225
+mas 'Pixelmator', id: 407963104
+mas 'DaisyDisk', id: 411643860
+mas 'Reeder', id: 880001334
+mas 'Numbers', id: 409203825
+mas 'Transmit', id: 403388562
+mas 'Pages', id: 409201541
+mas 'Xcode', id: 497799835
+mas 'Soulver', id: 413965349
+mas 'iMovie', id: 408981434
+mas 'Irvue', id: 1039633667
+mas 'Noizio', id: 928871589
+mas 'Slack', id: 803453959
+mas 'Dash', id: 449589707
+mas 'Sip', id: 507257563
