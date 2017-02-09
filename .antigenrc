@@ -9,6 +9,7 @@ antigen bundle z
 antigen bundle thefuck
 antigen bundle git-extras
 antigen bundle brew
+antigen bundle web-search
 antigen bundle djui/alias-tips
 antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
