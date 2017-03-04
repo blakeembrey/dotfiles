@@ -1,6 +1,5 @@
 # Plugins
-source /usr/local/opt/antigen/share/antigen.zsh
-source /usr/local/opt/autoenv/activate.sh
+source /usr/local/share/antigen/antigen.zsh
 
 # Source additional config.
 source $HOME/.aliasesrc
