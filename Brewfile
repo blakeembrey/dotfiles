@@ -17,6 +17,7 @@ brew 'libxml2'
 brew 'augeas'
 brew 'autoconf'
 brew 'automake'
+brew 'blackbox'
 brew 'libpng'
 brew 'freetype'
 brew 'fontconfig'
@@ -26,11 +27,14 @@ brew 'pcre'
 brew 'glib'
 brew 'pixman'
 brew 'cairo'
+brew 'calc'
 brew 'ocaml'
 brew 'camlp5'
 brew 'dialog'
+brew 'openssl@1.1'
 brew 'certbot'
 brew 'cmake'
+brew 'coreutils'
 brew 'jpeg'
 brew 'libtiff'
 brew 'wxmac'
@@ -40,6 +44,8 @@ brew 'nspr'
 brew 'spidermonkey'
 brew 'couchdb'
 brew 'curl'
+brew 'libmaa'
+brew 'dict'
 brew 'direnv'
 brew 'elasticsearch', restart_service: true
 brew 'little-cms2'
@@ -61,7 +67,7 @@ brew 'gl2ps'
 brew 'gnu-sed'
 brew 'gnupg'
 brew 'lua'
-brew 'gnuplot'
+brew 'gnuplot', args: ['with-qt@5.7']
 brew 'pkg-config'
 brew 'gobject-introspection'
 brew 'libtool'
@@ -79,21 +85,26 @@ brew 'ledit'
 brew 'libevent'
 brew 'libsvm'
 brew 'libyaml'
+brew 'lnav'
 brew 'logstash'
 brew 'mackup'
 brew 'mas'
+brew 'maven'
 brew 'neo4j'
 brew 'packer'
 brew 'pango'
+brew 'peco'
 brew 'phantomjs'
 brew 'plotutils'
 brew 'python3'
 brew 'postgresql', restart_service: true
 brew 'pstoedit'
+brew 'qt@5.7'
 brew 'sip', args: ['with-python3']
 brew 'pyqt5'
 brew 'qscintilla2'
 brew 'qt5'
+brew 'rabbitmq'
 brew 'raptor'
 brew 'ruby-build'
 brew 'rbenv'
@@ -105,13 +116,17 @@ brew 'szip'
 brew 'tbb'
 brew 'terraform'
 brew 'texinfo'
+brew 'the_silver_searcher'
 brew 'thefuck'
+brew 'tig'
+brew 'tika'
 brew 'titan-server'
 brew 'tmux'
 brew 'tree'
 brew 'vim'
 brew 'virtuoso'
 brew 'wget'
+brew 'yank'
 brew 'z'
 brew 'zsh'
 brew 'zsh-completions'
@@ -127,14 +142,18 @@ brew 'homebrew/science/transfig'
 brew 'homebrew/science/octave'
 cask 'aerial'
 cask 'alfred'
+cask 'anki'
 cask 'aquaterm'
 cask 'arduino'
+cask 'atom'
 cask 'backblaze'
 cask 'bittorrent-sync'
 cask 'brave'
 cask 'cloak'
 cask 'dashlane'
 cask 'docker'
+cask 'dolphin'
+cask 'dropbox'
 cask 'duet'
 cask 'dwarf-fortress'
 cask 'evernote'
@@ -143,17 +162,21 @@ cask 'flux'
 cask 'focus'
 cask 'font-fira-code'
 cask 'font-source-code-pro'
+cask 'framer'
 cask 'gephi'
 cask 'gitup'
 cask 'google-chrome'
-cask 'google-drive'
 cask 'helium'
+cask 'imageoptim'
 cask 'iterm2'
 cask 'kap'
+cask 'keepingyouawake'
 cask 'keybase'
 cask 'kitematic'
+cask 'lastpass'
 cask 'launchrocket'
 cask 'licecap'
+cask 'openemu'
 cask 'rescuetime'
 cask 'screenhero'
 cask 'sdl-framework'
@@ -170,24 +193,26 @@ cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'webtorrent'
-mas 'Kaleidoscope', id: 587512244
-mas 'Keynote', id: 409183694
+cask 'xscope'
 mas 'CloudApp', id: 417602904
-mas 'iA Writer', id: 775737590
-mas 'GarageBand', id: 682658836
-mas 'The Unarchiver', id: 425424353
-mas 'Caffeine', id: 411246225
-mas 'Pixelmator', id: 407963104
+mas 'Copied', id: 1026349850
 mas 'DaisyDisk', id: 411643860
-mas 'Reeder', id: 880001334
-mas 'Numbers', id: 409203825
-mas 'Transmit', id: 403388562
-mas 'Pages', id: 409201541
-mas 'Xcode', id: 497799835
-mas 'Soulver', id: 413965349
+mas 'Dash', id: 449589707
+mas 'GarageBand', id: 682658836
+mas 'iA Writer', id: 775737590
 mas 'iMovie', id: 408981434
 mas 'Irvue', id: 1039633667
+mas 'Kaleidoscope', id: 587512244
+mas 'Keynote', id: 409183694
+mas 'LastPass', id: 926036361
 mas 'Noizio', id: 928871589
-mas 'Slack', id: 803453959
-mas 'Dash', id: 449589707
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Pixelmator', id: 407963104
+mas 'Reeder', id: 880001334
 mas 'Sip', id: 507257563
+mas 'Slack', id: 803453959
+mas 'Soulver', id: 413965349
+mas 'The Unarchiver', id: 425424353
+mas 'Transmit', id: 403388562
+mas 'Xcode', id: 497799835
