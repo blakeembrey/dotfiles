@@ -26,4 +26,7 @@ eval "$(rbenv init -)"
 # Enable https://github.com/nvbn/thefuck
 eval "$(thefuck --alias)"
 
+# Enable direnv
+eval "$(direnv hook zsh)"
+
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
