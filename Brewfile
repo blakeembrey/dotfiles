@@ -147,9 +147,8 @@ cask 'aquaterm'
 cask 'arduino'
 cask 'atom'
 cask 'backblaze'
-cask 'bittorrent-sync'
+cask 'bartender'
 cask 'brave'
-cask 'cloak'
 cask 'dashlane'
 cask 'docker'
 cask 'dolphin'
@@ -173,11 +172,12 @@ cask 'kap'
 cask 'keepingyouawake'
 cask 'keybase'
 cask 'kitematic'
-cask 'lastpass'
 cask 'launchrocket'
 cask 'licecap'
 cask 'openemu'
+cask 'private-internet-access'
 cask 'rescuetime'
+cask 'resilio-sync'
 cask 'screenhero'
 cask 'sdl-framework'
 cask 'sdl-ttf-framework'
@@ -195,7 +195,6 @@ cask 'vlc'
 cask 'webtorrent'
 cask 'xscope'
 mas 'CloudApp', id: 417602904
-mas 'Copied', id: 1026349850
 mas 'DaisyDisk', id: 411643860
 mas 'Dash', id: 449589707
 mas 'GarageBand', id: 682658836
@@ -204,14 +203,12 @@ mas 'iMovie', id: 408981434
 mas 'Irvue', id: 1039633667
 mas 'Kaleidoscope', id: 587512244
 mas 'Keynote', id: 409183694
-mas 'LastPass', id: 926036361
 mas 'Noizio', id: 928871589
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Pixelmator', id: 407963104
 mas 'Reeder', id: 880001334
 mas 'Sip', id: 507257563
-mas 'Slack', id: 803453959
 mas 'Soulver', id: 413965349
 mas 'The Unarchiver', id: 425424353
 mas 'Transmit', id: 403388562
