@@ -17,11 +17,24 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Cabal packages
 export PATH="$HOME/.cabal/bin:$PATH"
 
+# Anaconda
+. /usr/local/anaconda3/etc/profile.d/conda.sh
+
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
 
 # NPM
 export PATH="$HOME/.node_modules/bin:$PATH"
+
+# Go path
+export GOPATH="$HOME/Projects/go"
+export PATH="$GOPATH/bin:$PATH"
+
+# Kube config
+export KUBECONFIG="$HOME/.kube/config:$HOME/.kube/honeycomb-config"
+
+# Google App Engine credentials
+export GOOGLE_APPLICATION_CREDENTIALS="$HOME/Credentials/aws-k8s-7bb486b54cab.json"
 
 # Initialize rbenv
 eval "$(rbenv init -)"
