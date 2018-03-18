@@ -1,215 +1,184 @@
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'homebrew/bundle'
-tap 'homebrew/core'
-tap 'homebrew/science'
-tap 'homebrew/services'
-tap 'homebrew/x11'
-cask 'java'
-cask 'xquartz'
-brew 'antigen'
-brew 'gdbm'
-brew 'openssl'
-brew 'readline'
-brew 'sqlite'
-brew 'python'
-brew 'libxml2'
-brew 'augeas'
-brew 'autoconf'
-brew 'automake'
-brew 'blackbox'
-brew 'libpng'
-brew 'freetype'
-brew 'fontconfig'
-brew 'gettext'
-brew 'libffi'
-brew 'pcre'
-brew 'glib'
-brew 'pixman'
-brew 'cairo'
-brew 'calc'
-brew 'ocaml'
-brew 'camlp5'
-brew 'dialog'
-brew 'openssl@1.1'
-brew 'certbot'
-brew 'cmake'
-brew 'coreutils'
-brew 'jpeg'
-brew 'libtiff'
-brew 'wxmac'
-brew 'erlang'
-brew 'icu4c'
-brew 'nspr'
-brew 'spidermonkey'
-brew 'couchdb'
-brew 'curl'
-brew 'libmaa'
-brew 'dict'
-brew 'direnv'
-brew 'elasticsearch', restart_service: true
-brew 'little-cms2'
-brew 'ghostscript'
-brew 'epstool'
-brew 'exiftool'
-brew 'gmp'
-brew 'isl'
-brew 'mpfr'
-brew 'libmpc'
-brew 'gcc'
-brew 'fftw'
-brew 'fltk'
-brew 'webp'
-brew 'gd'
-brew 'git'
-brew 'git-extras'
-brew 'gl2ps'
-brew 'gnu-sed'
-brew 'gnupg'
-brew 'lua'
-brew 'gnuplot', args: ['with-qt@5.7']
-brew 'pkg-config'
-brew 'gobject-introspection'
-brew 'libtool'
-brew 'graphicsmagick'
-brew 'graphviz'
-brew 'harfbuzz'
-brew 'heroku'
-brew 'hub'
-brew 'perl'
-brew 'xz'
-brew 'imagemagick'
-brew 'zookeeper'
-brew 'kafka'
-brew 'ledit'
-brew 'libevent'
-brew 'libsvm'
-brew 'libyaml'
-brew 'lnav'
-brew 'logstash'
-brew 'mackup'
-brew 'mas'
-brew 'maven'
-brew 'neo4j'
-brew 'packer'
-brew 'pango'
-brew 'peco'
-brew 'phantomjs'
-brew 'plotutils'
-brew 'python3'
-brew 'postgresql', restart_service: true
-brew 'pstoedit'
-brew 'qt@5.7'
-brew 'sip', args: ['with-python3']
-brew 'pyqt5'
-brew 'qscintilla2'
-brew 'qt5'
-brew 'rabbitmq'
-brew 'raptor'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'redis', restart_service: true
-brew 'rethinkdb', restart_service: true
-brew 'ruby'
-brew 'stout'
-brew 'szip'
-brew 'tbb'
-brew 'terraform'
-brew 'texinfo'
-brew 'the_silver_searcher'
-brew 'thefuck'
-brew 'tig'
-brew 'tika'
-brew 'titan-server'
-brew 'tmux'
-brew 'tree'
-brew 'vim'
-brew 'virtuoso'
-brew 'wget'
-brew 'yank'
-brew 'z'
-brew 'zsh'
-brew 'zsh-completions'
-brew 'homebrew/science/veclibfort'
-brew 'homebrew/science/arpack'
-brew 'homebrew/science/glpk'
-brew 'homebrew/science/hdf5'
-brew 'homebrew/science/metis'
-brew 'homebrew/science/qhull'
-brew 'homebrew/science/qrupdate'
-brew 'homebrew/science/suite-sparse'
-brew 'homebrew/science/transfig'
-brew 'homebrew/science/octave'
-cask 'aerial'
-cask 'alfred'
-cask 'anki'
-cask 'aquaterm'
-cask 'arduino'
-cask 'atom'
-cask 'backblaze'
-cask 'bartender'
-cask 'brave'
-cask 'dashlane'
-cask 'docker'
-cask 'dolphin'
-cask 'dropbox'
-cask 'duet'
-cask 'dwarf-fortress'
-cask 'evernote'
-cask 'firefox'
-cask 'flux'
-cask 'focus'
-cask 'font-fira-code'
-cask 'font-source-code-pro'
-cask 'framer'
-cask 'gephi'
-cask 'gitup'
-cask 'google-chrome'
-cask 'helium'
-cask 'imageoptim'
-cask 'iterm2'
-cask 'kap'
-cask 'keepingyouawake'
-cask 'keybase'
-cask 'kitematic'
-cask 'launchrocket'
-cask 'licecap'
-cask 'openemu'
-cask 'private-internet-access'
-cask 'rescuetime'
-cask 'resilio-sync'
-cask 'screenhero'
-cask 'sdl-framework'
-cask 'sdl-ttf-framework'
-cask 'sketch'
-cask 'skype'
-cask 'spectacle'
-cask 'spotify'
-cask 'steam'
-cask 'sublime-text'
-cask 'textual'
-cask 'tripmode'
-cask 'virtualbox'
-cask 'visual-studio-code'
-cask 'vlc'
-cask 'webtorrent'
-cask 'xscope'
-mas 'CloudApp', id: 417602904
-mas 'DaisyDisk', id: 411643860
-mas 'Dash', id: 449589707
-mas 'GarageBand', id: 682658836
-mas 'iA Writer', id: 775737590
-mas 'iMovie', id: 408981434
-mas 'Irvue', id: 1039633667
-mas 'Kaleidoscope', id: 587512244
-mas 'Keynote', id: 409183694
-mas 'Noizio', id: 928871589
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
-mas 'Pixelmator', id: 407963104
-mas 'Reeder', id: 880001334
-mas 'Sip', id: 507257563
-mas 'Soulver', id: 413965349
-mas 'The Unarchiver', id: 425424353
-mas 'Transmit', id: 403388562
-mas 'Xcode', id: 497799835
+tap "homebrew/science"
+tap "homebrew/core"
+tap "homebrew/x11"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "caskroom/drivers"
+tap "caskroom/fonts"
+tap "caskroom/cask"
+cask "java"
+cask "xquartz"
+brew "openssl"
+brew "aircrack-ng"
+brew "antigen"
+brew "augeas"
+brew "autoconf"
+brew "automake"
+brew "gettext"
+brew "libffi"
+brew "blackbox"
+brew "pixman"
+brew "calc"
+brew "camlp5"
+brew "certbot"
+brew "chromedriver"
+brew "cmake"
+brew "coreutils"
+brew "wxmac"
+brew "spidermonkey"
+brew "couchdb"
+brew "curl"
+brew "dict"
+brew "direnv"
+brew "elasticsearch", restart_service: true
+brew "little-cms2"
+brew "ghostscript"
+brew "epstool"
+brew "exiftool"
+brew "git"
+brew "git-extras"
+brew "glpk"
+brew "gnu-sed"
+brew "libtool"
+brew "graphicsmagick"
+brew "graphviz"
+brew "hashcat"
+brew "hdf5"
+brew "heroku"
+brew "hub"
+brew "zookeeper"
+brew "kafka"
+brew "kubernetes-cli"
+brew "ledit"
+brew "libevent"
+brew "libicns"
+brew "libsvm"
+brew "libyaml"
+brew "lnav"
+brew "logstash"
+brew "mackup"
+brew "mas"
+brew "maven"
+brew "metis"
+brew "mongodb", restart_service: true
+brew "mysql"
+brew "neo4j"
+brew "neovim"
+brew "nmap"
+brew "plotutils"
+brew "qhull"
+brew "octave"
+brew "packer"
+brew "pango"
+brew "peco"
+brew "perl"
+brew "phantomjs"
+brew "qt"
+brew "rabbitmq"
+brew "raptor"
+brew "rbenv"
+brew "redis", restart_service: true
+brew "rethinkdb"
+brew "rpm"
+brew "ruby"
+brew "sqlcipher", args: ["with-fts"]
+brew "stout"
+brew "terraform"
+brew "texinfo"
+brew "the_silver_searcher"
+brew "thefuck"
+brew "tig"
+brew "tika"
+brew "titan-server"
+brew "tldr"
+brew "tmux"
+brew "tree"
+brew "vault"
+brew "vim"
+brew "virtuoso"
+brew "wget"
+brew "wrk"
+brew "yank"
+brew "yarn"
+brew "z"
+brew "zsh"
+brew "zsh-completions"
+cask "aerial"
+cask "alfred"
+cask "anki"
+cask "aquaterm"
+cask "arduino"
+cask "atom"
+cask "backblaze"
+cask "beaker-browser"
+cask "brave"
+cask "dashlane"
+cask "dbeaver-community"
+cask "docker"
+cask "dolphin"
+cask "dotnet-sdk"
+cask "dropbox"
+cask "duet"
+cask "dwarf-fortress"
+cask "evernote"
+cask "firefox"
+cask "franz"
+cask "freedom"
+cask "gephi"
+cask "gitup"
+cask "google-chrome"
+cask "hammerspoon"
+cask "imageoptim"
+cask "iterm2"
+cask "kap"
+cask "keepingyouawake"
+cask "keybase"
+cask "launchrocket"
+cask "little-snitch"
+cask "minecraft"
+cask "ngrok"
+cask "openemu"
+cask "postgres"
+cask "postman"
+cask "private-internet-access"
+cask "rescuetime"
+cask "resilio-sync"
+cask "sdl-framework"
+cask "sdl-ttf-framework"
+cask "sketch"
+cask "skype"
+cask "slack"
+cask "spectacle"
+cask "spotify"
+cask "steam"
+cask "sublime-text"
+cask "textual"
+cask "transmission"
+cask "tripmode"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "vlc"
+cask "webtorrent"
+cask "xscope"
+cask "caskroom/drivers/logitech-gaming-software"
+cask "caskroom/fonts/font-fira-code"
+cask "caskroom/fonts/font-source-code-pro"
+mas "1Password", id: 443987910
+mas "CloudApp", id: 417602904
+mas "DaisyDisk", id: 411643860
+mas "GarageBand", id: 682658836
+mas "iA Writer", id: 775737590
+mas "iMovie", id: 408981434
+mas "Kaleidoscope", id: 587512244
+mas "Keynote", id: 409183694
+mas "Micro Snitch", id: 972028355
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pixelmator", id: 407963104
+mas "Reeder", id: 880001334
+mas "Sip", id: 507257563
+mas "Soulver", id: 413965349
+mas "The Unarchiver", id: 425424353
+mas "Transmit", id: 403388562
+mas "Unsplash Wallpapers", id: 1284863847
+mas "Xcode", id: 497799835
