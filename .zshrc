@@ -1,15 +1,14 @@
 # Plugins
 source /usr/local/share/antigen/antigen.zsh
 
-# Source additional config.
+# Source aliases
 source $HOME/.aliasesrc
-source $HOME/.antigenrc
+
+# Initialize antigen
+antigen init $HOME/.antigenrc
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
-
-# NPM packages
-export PATH="$HOME/.npm-packages/bin:$PATH"
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
