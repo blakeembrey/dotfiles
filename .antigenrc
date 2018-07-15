@@ -2,7 +2,6 @@ antigen use oh-my-zsh
 
 if [ "$OSTYPE"="darwin15.0" ]; then
   antigen bundle osx
-  antigen bundle brew
 fi
 
 # Plugins.

@@ -6,8 +6,6 @@ if [ echo $ZSH_NAME != "zsh" ]; then
   chsh -s /bin/zsh
 fi
 
-sh ./setup.sh
-
 mkdir -p ~/Projects
 
 if [ -d ~/.vim/bundle/Vundle.vim ]; then
@@ -21,3 +19,9 @@ if which node > /dev/null; then
 else
   sh ./scripts/node.sh
 fi
+
+ITERM_THEME_OUT_PATH=~/Downloads/Snazzy.itermcolors
+
+curl -L https://github.com/sindresorhus/iterm2-snazzy/raw/master/Snazzy.itermcolors > $ITERM_THEME_OUT_PATH
+open $ITERM_THEME_OUT_PATH
+rm $ITERM_THEME_OUT_PATH

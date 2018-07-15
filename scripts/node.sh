@@ -1,7 +1,9 @@
-mkdir -p ~/Projects/tj
+PROJECT_DIR=~/Projects/GitHub/tj
 
-git clone https://github.com/tj/n.git ~/Projects/tj/n
+mkdir -p $PROJECT_DIR
 
-cd ~/Projects/tj/n
+git clone https://github.com/tj/n.git $PROJECT_DIR/n
+
+cd $PROJECT_DIR/n
 
 make install

@@ -2,22 +2,24 @@
 
 My OS X config.
 
-## Bootstrap Everything
+## Restore
 
 ```sh
-sh ./bootstrap.sh
+sh bootstrap.sh # Bootstrap packages and configuration.
 ```
 
-### Just Link
+Log into 1Password and set up Dropbox (for `mackup`).
 
-```sh
-sh ./setup.sh
+```
+mackup restore # Restore app configuration.
+sh link.sh # Link files to $HOME.
 ```
 
-### Update Brew Bundle
+### Backup
 
 ```sh
-brew bundle dump -f
+brew bundle dump -f # Brew packages, casks and MAS apps.
+mackup backup # App configuration.
 ```
 
 ## License
