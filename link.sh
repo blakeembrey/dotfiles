@@ -7,9 +7,10 @@ link() {
   ln -fs "${DIRECTORY}/${1}" "${HOME}/${2}"
 }
 
-link ".zshrc" ".zshrc"
 link ".aliasesrc" ".aliasesrc"
 link ".antigenrc" ".antigenrc"
-link ".vimrc" ".vimrc"
-link ".gitignore" ".gitignore"
 link ".gitconfig" ".gitconfig"
+link ".gitignore" ".gitignore"
+link ".mackup.cfg" ".mackup.cfg"
+link ".vimrc" ".vimrc"
+link ".zshrc" ".zshrc"
