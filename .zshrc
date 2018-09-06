@@ -19,6 +19,9 @@ export PATH="$HOME/.cabal/bin:$PATH"
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
 
+# NPM
+export PATH="$HOME/.node_modules/bin:$PATH"
+
 # Initialize rbenv
 eval "$(rbenv init -)"
 
