@@ -31,4 +31,8 @@ eval "$(thefuck --alias)"
 # Enable direnv
 eval "$(direnv hook zsh)"
 
+# Git Extras completions
+source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
+
+# iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
