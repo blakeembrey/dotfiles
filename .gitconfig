@@ -34,3 +34,5 @@
 	required = true
 [core]
 	editor = /usr/local/bin/vim
+[url "git@github.com:"]
+	insteadOf = https://github.com/
