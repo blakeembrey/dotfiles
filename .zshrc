@@ -3,6 +3,7 @@ source /usr/local/share/antigen/antigen.zsh
 
 # Source aliases
 source $HOME/.aliasesrc
+source $HOME/.localrc
 
 # Initialize antigen
 antigen init $HOME/.antigenrc
