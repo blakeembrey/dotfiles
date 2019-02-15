@@ -36,7 +36,7 @@ alias g=git
 
 alias ga='git add'
 alias gaa='git add --all'
-alias gapa='git add --patch'
+alias gap='git add --patch'
 
 alias gb='git branch'
 alias gba='git branch -a'
@@ -68,8 +68,6 @@ alias gcm='git checkout master'
 
 alias gcp='git cherry-pick'
 
-alias gu='gitup commit'
-alias gdb='git delete-branch'
 alias grt='cd $(git rev-parse --show-toplevel || echo ".")'
 
 alias gd='git diff'
@@ -83,20 +81,18 @@ alias glu='git pull upstream $(git rev-parse --abrev-ref HEAD)'
 alias glum='git pull upstream master'
 alias glr='git pull --rebase'
 
-alias gr='git remote'
-alias gra='git remote add'
-alias grv='git remote -v'
-alias grmv='git remote rename'
-alias grrm='git remote remove'
-alias grs='git remote set-url'
-alias gru='git remote update'
+alias gre='git remote'
+alias grea='git remote add'
+alias gres='git remote set-url'
+alias greu='git remote update'
 
-alias grb='git rebase'
-alias grba='git rebase --abort'
-alias grbc='git rebase --continue'
-alias grbi='git rebase -i'
-alias grbm='git rebase master'
-alias grbs='git rebase --skip'
+alias gr='git rebase'
+alias gra='git rebase --abort'
+alias grc='git rebase --continue'
+alias grs='git rebase --skip'
+alias gri='git rebase -i'
+alias grm='git rebase master'
+alias grim='git rebase -i master'
 
 alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
@@ -105,6 +101,7 @@ alias gru='git reset --'
 alias gp='git push'
 alias gpd='git push --dry-run'
 alias gpo='git push origin $(git rev-parse --abbrev-ref HEAD)'
+alias gpou='git push origin $(git rev-parse --abbrev-ref HEAD) -u'
 alias gpf='git push --force-with-lease'
 alias gpu='git push upstream'
 
@@ -112,9 +109,7 @@ alias gst='git status'
 alias gss='git status --short --branch'
 
 alias gm='git merge'
-alias gmm='git merge --ff'
-alias gmom='git merge origin/master'
-alias gmum='git merge upstream/master'
+alias gmff='git merge --ff'
 
 alias gunignore='git update-index --no-assume-unchanged'
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit -m "--wip--"'
@@ -125,6 +120,13 @@ alias glog='git log --oneline --decorate --graph'
 alias gloga='git log --oneline --decorate --graph --all'
 alias glol='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit'
 alias glola='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit --all'
+
+# External git utilities.
+alias gu='gitup commit'
+alias gdb='git delete-branch'
+alias h='hub'
+alias hb='hub browse'
+alias hc='hub create'
 
 #############
 # Utilities #
