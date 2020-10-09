@@ -36,9 +36,6 @@ export KUBECONFIG="$HOME/.kube/config:$HOME/.kube/honeycomb-config"
 # Google App Engine credentials
 export GOOGLE_APPLICATION_CREDENTIALS="$HOME/Credentials/aws-k8s-7bb486b54cab.json"
 
-# Initialize rbenv
-eval "$(rbenv init -)"
-
 # Enable https://github.com/nvbn/thefuck
 eval "$(thefuck --alias)"
 
@@ -47,6 +44,9 @@ eval "$(direnv hook zsh)"
 
 # Git Extras completions
 source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
+
+# ASDF
+. $HOME/.asdf/asdf.sh
 
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
