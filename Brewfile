@@ -1,8 +1,8 @@
-tap "caskroom/cask"
 tap "confluentinc/ccloud"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
@@ -10,14 +10,14 @@ tap "homebrew/services"
 tap "opendoor-labs/tap"
 tap "versent/taps"
 cask "adoptopenjdk8"
-brew "python@3.8"
+brew "openssl@1.1"
 brew "ansible"
 brew "antigen"
 brew "asdf"
+brew "python@3.8"
 brew "awscli"
 brew "bash-completion"
 brew "glib"
-brew "ccloud"
 brew "cgal"
 brew "go"
 brew "dep"
@@ -55,7 +55,6 @@ brew "openjdk"
 brew "pigz"
 brew "postgresql", restart_service: true
 brew "postgis"
-brew "python@2"
 brew "redis"
 brew "ruby"
 brew "ruby-build"
@@ -88,10 +87,7 @@ cask "evernote"
 cask "font-source-code-pro"
 cask "gitup"
 cask "iterm2"
-cask "java"
-cask "java8"
 cask "keepingyouawake"
-cask "minikube"
 cask "notion"
 cask "phantomjs"
 cask "postman"
@@ -103,8 +99,9 @@ cask "tunnelblick"
 cask "visual-studio-code"
 mas "Bear", id: 1091189122
 mas "Fantastical", id: 975937182
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
 mas "Kaleidoscope", id: 587512244
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "uBlock", id: 1385985095
