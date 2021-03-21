@@ -11,12 +11,6 @@ antigen init $HOME/.antigenrc
 # Customize to your needs...
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 
-# Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-# Cabal packages
-export PATH="$HOME/.cabal/bin:$PATH"
-
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
 
@@ -31,6 +25,14 @@ eval "$(thefuck --alias)"
 
 # Enable direnv
 eval "$(direnv hook zsh)"
+
+# Homebrew completions
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
 
 # Git Extras completions
 source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
