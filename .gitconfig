@@ -1,6 +1,7 @@
 [user]
 	name = Blake Embrey
 	email = hello@blakeembrey.com
+	signingkey = E7F0CAD5D0955979
 
 [push]
 	followTags = true
@@ -13,26 +14,35 @@
 	current = yellow reverse
 	local = yellow
 	remote = green
+
 [color "diff"]
 	meta = yellow bold
 	frag = magenta bold
 	old = red bold
 	new = green bold
+
 [color "status"]
 	added = yellow
 	changed = green
 	untracked = cyan
+
 [merge]
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
 
 [push]
 	default = simple
+
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
+
 [core]
 	editor = /usr/local/bin/vim
+
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+
+[commit]
+	gpgsign = true
