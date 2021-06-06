@@ -4,14 +4,15 @@ echo "Linking $DIRECTORY -> $HOME"
 
 link() {
   # Force create/replace the symlink.
-  ln -fs "${DIRECTORY}/${1}" "${HOME}/${2}"
+  ln -fs "${DIRECTORY}/${1}" "${HOME}/${1}"
 }
 
-link ".aliasesrc" ".aliasesrc"
-link ".antigenrc" ".antigenrc"
-link ".gitconfig" ".gitconfig"
-link ".gitignore" ".gitignore"
-link ".mackup.cfg" ".mackup.cfg"
-link ".npmrc" ".npmrc"
-link ".vimrc" ".vimrc"
-link ".zshrc" ".zshrc"
+link ".aliasesrc"
+link ".antigenrc"
+link ".gitconfig"
+link ".gitignore"
+link ".mackup.cfg"
+link ".npmrc"
+link ".tool-versions"
+link ".vimrc"
+link ".zshrc"
