@@ -124,9 +124,7 @@ alias glola='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s
 # External git utilities.
 alias gu='gitup commit'
 alias gdb='git delete-branch'
-alias h='hub'
-alias hb='hub browse'
-alias hc='hub create'
+alias ghb='gh repo view --web'
 
 #############
 # Utilities #
