@@ -39,3 +39,6 @@ source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
 
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# ASDF support
+. /usr/local/opt/asdf/asdf.sh
