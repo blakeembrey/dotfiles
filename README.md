@@ -12,6 +12,8 @@ sh link.sh # Link files to $HOME.
 mackup restore # Restore app configuration.
 ```
 
+Guide to setting up [GPG signing keys](https://github.com/pstadler/keybase-gpg-github).
+
 ### Backup
 
 ```sh
