@@ -42,3 +42,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # ASDF support
 . /usr/local/opt/asdf/asdf.sh
+
+# GPG TTY support
+export GPG_TTY=$(tty)
