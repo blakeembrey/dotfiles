@@ -1,3 +1,4 @@
+tap "cantino/mcfly"
 tap "dopplerhq/cli"
 tap "heroku/brew"
 tap "homebrew/bundle"
@@ -27,7 +28,7 @@ brew "camlp5"
 brew "certbot"
 brew "cmake"
 brew "spidermonkey"
-brew "couchdb"
+brew "couchdb", restart_service: true
 brew "curl"
 brew "deno"
 brew "dict"
@@ -65,8 +66,8 @@ brew "mas"
 brew "openjdk"
 brew "maven"
 brew "metis"
-brew "mysql"
-brew "neo4j"
+brew "mysql", restart_service: true
+brew "neo4j", restart_service: true
 brew "neovim"
 brew "nmap"
 brew "plotutils"
@@ -82,10 +83,10 @@ brew "postgresql", restart_service: true
 brew "qt"
 brew "pyqt"
 brew "python@3.8"
-brew "rabbitmq"
+brew "rabbitmq", restart_service: true
 brew "raptor"
 brew "rbenv"
-brew "redis"
+brew "redis", restart_service: true
 brew "ripgrep"
 brew "rpm"
 brew "ruby"
@@ -100,15 +101,16 @@ brew "titan-server"
 brew "tldr"
 brew "tmux"
 brew "tree"
-brew "vault"
+brew "vault", restart_service: true
 brew "vim"
 brew "wget"
 brew "wrk"
 brew "yank"
 brew "z"
-brew "zookeeper"
+brew "zookeeper", restart_service: true
 brew "zsh"
 brew "zsh-completions"
+brew "cantino/mcfly/mcfly"
 brew "dopplerhq/cli/doppler"
 brew "heroku/brew/heroku"
 brew "nektos/tap/act"
@@ -116,6 +118,7 @@ brew "superfly/tap/flyctl"
 cask "1password"
 cask "aerial"
 cask "alfred"
+cask "camo-studio"
 cask "cryptomator"
 cask "docker"
 cask "dotnet-sdk"
@@ -157,13 +160,11 @@ cask "webtorrent"
 cask "xquartz"
 mas "1Blocker", id: 1365531024
 mas "Bear", id: 1091189122
-mas "Cardhop", id: 1290358394
 mas "Craft", id: 1487937127
 mas "DaisyDisk", id: 411643860
 mas "Darkroom", id: 953286746
 mas "Day One", id: 1055511498
 mas "Evernote", id: 406056744
-mas "Fantastical", id: 975937182
 mas "GarageBand", id: 682658836
 mas "Hush", id: 1544743900
 mas "iA Writer", id: 775737590
@@ -180,7 +181,7 @@ mas "Poolsuite FM", id: 1514817810
 mas "Save to Raindrop.io", id: 1549370672
 mas "Scan Thing", id: 1556313108
 mas "Soulver", id: 413965349
-mas "Spark", id: 1176895641
+mas "TextSniper", id: 1528890965
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
 mas "Transmit", id: 403388562
