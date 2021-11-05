@@ -42,9 +42,6 @@
 	editor = /usr/local/bin/vim
 	excludesFile = ~/.gitignore
 
-[url "git@github.com:"]
-	insteadOf = https://github.com/
-
 [commit]
 	gpgsign = true
 

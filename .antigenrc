@@ -1,10 +1,6 @@
 antigen use oh-my-zsh
 
-if [ "$OSTYPE"="darwin15.0" ]; then
-  antigen bundle osx
-fi
-
-# Plugins.
+antigen bundle osx
 antigen bundle z
 antigen bundle thefuck
 antigen bundle git-extras
@@ -13,7 +9,6 @@ antigen bundle pip
 antigen bundle aws
 antigen bundle djui/alias-tips
 antigen bundle mafredri/zsh-async
-antigen bundle sindresorhus/pure
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
 

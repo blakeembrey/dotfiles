@@ -1,5 +1,5 @@
 # Plugins
-source /usr/local/share/antigen/antigen.zsh
+source $(brew --prefix)/share/antigen/antigen.zsh
 
 # Source aliases
 source $HOME/.aliasesrc
@@ -38,13 +38,17 @@ if type brew &>/dev/null; then
 fi
 
 # Git Extras completions
-source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
+source $(brew --prefix)/opt/git-extras/share/git-extras/git-extras-completion.zsh
 
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# Pure prompt
+autoload -U promptinit; promptinit
+prompt pure
+
 # ASDF support
-. /usr/local/opt/asdf/asdf.sh
+. $(brew --prefix)/opt/asdf/asdf.sh
 
 # GPG TTY support
 export GPG_TTY=$(tty)
