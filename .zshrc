@@ -29,7 +29,7 @@ eval "$(direnv hook zsh)"
 # Enable McFly
 eval "$(mcfly init zsh)"
 
-# Homebrew completions
+# Homebrew completions: https://docs.brew.sh/Shell-Completion
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 
@@ -48,3 +48,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # GPG TTY support
 export GPG_TTY=$(tty)
+
