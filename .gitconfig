@@ -39,7 +39,7 @@
 	required = true
 
 [core]
-	editor = /usr/local/bin/vim
+	editor = $HOMEBREW_PREFIX/bin/nvim
 	excludesFile = ~/.gitignore
 
 [commit]
@@ -47,3 +47,6 @@
 
 [init]
 	defaultBranch = main
+
+[url "git@github.com:"]
+	insteadOf = https://github.com/

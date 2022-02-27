@@ -122,7 +122,6 @@ alias glol='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s 
 alias glola='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit --all'
 
 # External git utilities.
-alias gu='gitup commit'
 alias gdb='git delete-branch'
 alias ghb='gh repo view --web'
 
