@@ -1,4 +1,5 @@
 golang 1.17
 python 3.10.0
-nodejs 16.9.0
+nodejs 17.6.0
 direnv 2.30.3
+poetry 1.1.13

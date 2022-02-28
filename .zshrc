@@ -43,3 +43,22 @@ export GPG_TTY=$(tty)
 # Node.js installation path
 export N_PREFIX="$HOME/.n"
 export PATH="$N_PREFIX/bin:$HOME/.node_modules/bin:$PATH"
+
+# Anaconda
+. $HOMEBREW_PREFIX/anaconda3/etc/profile.d/conda.sh
+
+# Go path
+export GOPATH="$HOME/Projects/go"
+export PATH="$GOPATH/bin:$PATH"
+
+# Kube config
+export KUBECONFIG="$HOME/.kube/config:$HOME/.kube/honeycomb-config"
+
+######### od shell tooling #########
+# these lines added by `code/scripts/development/maybe_install_od_shell_tooling.sh`
+OD_CODE_ROOT="/Users/blakeembrey/Projects/go/src/github.com/opendoor-labs/code"
+OD_TOOL_SOURCE_SCRIPT="$OD_CODE_ROOT/scripts/infra/sourced_on_shell_load.sh"
+[ -f "$OD_TOOL_SOURCE_SCRIPT" ] && source "$OD_TOOL_SOURCE_SCRIPT"
+######### end of od shell tooling #########
+
+export PATH="$HOME/.poetry/bin:$PATH"

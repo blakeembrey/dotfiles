@@ -131,3 +131,11 @@ alias ghb='gh repo view --web'
 
 alias ia="open $1 -a /Applications/iA\ Writer.app"
 alias mkd="mkdir -p $1 && cd $1"
+
+########
+# Work #
+########
+
+alias ca="conda activate"
+alias cad="conda activate dwellings"
+alias cah="conda activate honeycomb"
