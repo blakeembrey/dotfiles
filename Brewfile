@@ -120,6 +120,7 @@ cask "aerial"
 cask "airbuddy"
 cask "brave-browser"
 cask "camo-studio"
+cask "cleanshot"
 cask "cryptomator"
 cask "docker"
 cask "dotnet-sdk"
@@ -174,13 +175,11 @@ mas "Instapaper Save", id: 1481302432
 mas "Kaleidoscope", id: 587512244
 mas "Keynote", id: 409183694
 mas "Matter", id: 1548677272
-mas "Momentum", id: 1564329434
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Poolsuite FM", id: 1514817810
 mas "Save to Raindrop.io", id: 1549370672
 mas "Scan Thing", id: 1556313108
-mas "TextSniper", id: 1528890965
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
 mas "Xcode", id: 497799835
