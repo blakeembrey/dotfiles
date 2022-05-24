@@ -20,15 +20,18 @@ eval "$(asdf exec direnv hook zsh)"
 # Enable McFly
 eval "$(mcfly init zsh)"
 
+# Git Extras completions
+source $HOMEBREW_PREFIX/opt/git-extras/share/git-extras/git-extras-completion.zsh
+
 # Homebrew completions: https://docs.brew.sh/Shell-Completion
 FPATH=$HOMEBREW_PREFIX/share/zsh/site-functions:$FPATH
 autoload -Uz compinit; compinit
 
-# Git Extras completions
-source $HOMEBREW_PREFIX/opt/git-extras/share/git-extras/git-extras-completion.zsh
-
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Init zoxide
+eval "$(zoxide init zsh)"
 
 # Pure prompt
 autoload -U promptinit; promptinit

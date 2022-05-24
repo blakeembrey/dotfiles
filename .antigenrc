@@ -1,7 +1,6 @@
 antigen use oh-my-zsh
 
 antigen bundle macos
-antigen bundle agkozak/zsh-z
 antigen bundle djui/alias-tips
 antigen bundle mafredri/zsh-async
 antigen bundle zsh-users/zsh-autosuggestions

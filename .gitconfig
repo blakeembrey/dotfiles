@@ -7,7 +7,6 @@
 	followTags = true
 
 [apply]
-	# Detect whitespace errors when applying a patch
 	whitespace = fix
 
 [color "branch"]
@@ -16,10 +15,13 @@
 	remote = green
 
 [color "diff"]
-	meta = yellow bold
+	meta = 11
 	frag = magenta bold
 	old = red bold
 	new = green bold
+	func = 146 bold
+	commit = yellow bold
+	whitespace = red reverse
 
 [color "status"]
 	added = yellow
@@ -27,7 +29,6 @@
 	untracked = cyan
 
 [merge]
-	# Include summaries of merged commits in newly created merge commit messages
 	log = true
 
 [push]
@@ -41,6 +42,7 @@
 [core]
 	editor = $HOMEBREW_PREFIX/bin/nvim
 	excludesFile = ~/.gitignore
+	pager = diff-so-fancy | less --tabs=4 -RF
 
 [commit]
 	gpgsign = true
@@ -51,5 +53,14 @@
 [url "git@github.com:"]
 	insteadOf = https://github.com/
 
-[diff]
-	external = difft
+[interactive]
+	diffFilter = diff-so-fancy --patch
+
+[color]
+	ui = true
+
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22

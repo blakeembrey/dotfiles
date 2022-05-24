@@ -19,6 +19,7 @@ brew "libtool"
 brew "libyaml"
 brew "asdf"
 brew "augeas"
+brew "bat"
 brew "gettext"
 brew "libffi"
 brew "pixman"
@@ -33,7 +34,7 @@ brew "openldap"
 brew "curl"
 brew "deno"
 brew "dict"
-brew "difftastic"
+brew "diff-so-fancy"
 brew "direnv"
 brew "docker-compose"
 brew "ghostscript"
@@ -42,6 +43,7 @@ brew "erlang"
 brew "exiftool"
 brew "netpbm"
 brew "fltk"
+brew "fzf"
 brew "gawk"
 brew "gdk-pixbuf"
 brew "gh"
@@ -65,6 +67,7 @@ brew "imagemagick"
 brew "jq"
 brew "kubernetes-cli"
 brew "ledit"
+brew "less"
 brew "libarchive"
 brew "libicns"
 brew "libsvm"
@@ -109,6 +112,7 @@ brew "vim"
 brew "wget"
 brew "z"
 brew "zookeeper"
+brew "zoxide"
 brew "zsh"
 brew "cantino/mcfly/mcfly"
 brew "dopplerhq/cli/doppler"
@@ -118,8 +122,8 @@ cask "1password"
 cask "1password-cli"
 cask "aerial"
 cask "airbuddy"
+cask "balenaetcher"
 cask "brave-browser"
-cask "camo-studio"
 cask "cleanshot"
 cask "cryptomator"
 cask "docker"
@@ -133,7 +137,6 @@ cask "font-monoid"
 cask "font-noto-mono"
 cask "font-roboto-mono"
 cask "font-source-code-pro"
-cask "google-chrome"
 cask "google-cloud-sdk"
 cask "gpg-suite-no-mail"
 cask "imageoptim"
@@ -146,8 +149,6 @@ cask "loom"
 cask "ngrok"
 cask "notion"
 cask "nova"
-cask "openemu"
-cask "raindropio"
 cask "raycast"
 cask "rectangle"
 cask "sketch"
@@ -159,26 +160,23 @@ cask "xquartz"
 cask "zoom"
 mas "1Blocker", id: 1365531024
 mas "Amphetamine", id: 937984704
-mas "Bear", id: 1091189122
 mas "Craft", id: 1487937127
 mas "DaisyDisk", id: 411643860
+mas "Dark Noise", id: 1465439395
 mas "Darkroom", id: 953286746
 mas "Day One", id: 1055511498
 mas "Evernote", id: 406056744
 mas "Fantastical", id: 975937182
 mas "GarageBand", id: 682658836
 mas "GoodNotes", id: 1444383602
-mas "Hush", id: 1544743900
 mas "iA Writer", id: 775737590
 mas "iMovie", id: 408981434
-mas "Instapaper Save", id: 1481302432
 mas "Kaleidoscope", id: 587512244
 mas "Keynote", id: 409183694
 mas "Matter", id: 1548677272
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Poolsuite FM", id: 1514817810
-mas "Save to Raindrop.io", id: 1549370672
 mas "Scan Thing", id: 1556313108
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
