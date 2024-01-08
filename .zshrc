@@ -27,9 +27,6 @@ source $HOMEBREW_PREFIX/opt/git-extras/share/git-extras/git-extras-completion.zs
 FPATH=$HOMEBREW_PREFIX/share/zsh/site-functions:$FPATH
 autoload -Uz compinit; compinit
 
-# iTerm integration
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
 # Init zoxide
 eval "$(zoxide init zsh)"
 

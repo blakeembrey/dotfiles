@@ -7,7 +7,7 @@ eval "$(npm completion 2>/dev/null)"
 alias npmg="npm install -g "
 alias npmS="npm install -S "
 alias npmD="npm install -D "
-alias npmE='PATH="$(npm bin)":"$PATH"'
+alias npmE='PATH="./node_modules/.bin":"$PATH"'
 alias npmO="npm outdated"
 alias npmL="npm link"
 alias npmU="npm uninstall"
