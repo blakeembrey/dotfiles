@@ -12,7 +12,7 @@ antigen init $HOME/.antigenrc
 eval "$(thefuck --alias)"
 
 # asdf: https://asdf-vm.com/guide/getting-started.html#_3-install-asdf
-. $HOME/.asdf/asdf.sh
+. $(brew --prefix asdf)/libexec/asdf.sh
 
 # Enable direnv
 eval "$(asdf exec direnv hook zsh)"

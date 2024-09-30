@@ -78,7 +78,7 @@ alias gdw='git diff --word-diff'
 
 alias gl='git pull'
 alias glo='git pull origin $(git rev-parse --abbrev-ref HEAD)'
-alias glu='git pull upstream $(git rev-parse --abrev-ref HEAD)'
+alias glu='git pull upstream $(git rev-parse --abbrev-ref HEAD)'
 alias glr='git pull --rebase'
 
 alias gre='git remote'
@@ -115,7 +115,6 @@ alias gunignore='git update-index --no-assume-unchanged'
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit -m "--wip--"'
 alias gunwip='git log -n 1 | grep -q -c "\-\-wip\-\-" && git reset HEAD~1'
 
-alias glo='git log --oneline --decorate'
 alias glog='git log --oneline --decorate --graph'
 alias gloga='git log --oneline --decorate --graph --all'
 alias glol='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit'

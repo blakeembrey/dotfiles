@@ -1,10 +1,7 @@
 [user]
 	name = Blake Embrey
 	email = hello@blakeembrey.com
-	signingkey = E7F0CAD5D0955979
-
-[push]
-	followTags = true
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL0+8Eq/0cyKNZoDY5OfaaZJr+WdYJLWukRjIgZDE9dh
 
 [apply]
 	whitespace = fix
@@ -30,19 +27,21 @@
 
 [merge]
 	log = true
+	conflictstyle = diff3
 
 [push]
 	default = simple
 
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
 	required = true
+	process = git-lfs filter-process
 
 [core]
 	editor = $HOMEBREW_PREFIX/bin/nvim
 	excludesFile = ~/.gitignore
-	pager = diff-so-fancy | less --tabs=4 -RF
+	pager = delta
 
 [commit]
 	gpgsign = true
@@ -50,17 +49,23 @@
 [init]
 	defaultBranch = main
 
-[url "git@github.com:"]
-	insteadOf = https://github.com/
+# [url "git@github.com:"]
+#	insteadOf = https://github.com/
 
 [interactive]
-	diffFilter = diff-so-fancy --patch
+	diffFilter = delta --color-only
 
 [color]
 	ui = true
 
-[color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
+[delta]
+	navigate = true
+
+[diff]
+	colorMoved = default
+
+[gpg]
+	format = ssh
+
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
